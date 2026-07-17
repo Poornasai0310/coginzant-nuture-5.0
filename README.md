@@ -1,88 +1,70 @@
-# Week 1 - Trainers App
+# Getting Started with Create React App
 
-## Objective
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-To understand and implement routing in React applications using React Router DOM.
+## Available Scripts
 
-## Features
+In the project directory, you can run:
 
-* Navigation using React Router.
-* Home Page.
-* Trainers List Page.
-* Trainer Details Page.
-* URL Parameter Passing using `useParams()`.
-* Dynamic rendering of trainer details based on selected trainer.
+### `npm start`
 
-## Technologies Used
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-* React JS
-* React Router DOM
-* JavaScript
-* HTML5
-* CSS3
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Project Structure
+### `npm test`
 
-```text
-trainersapp
-├── src
-│   ├── App.js
-│   ├── Home.js
-│   ├── Trainer.js
-│   ├── TrainersMock.js
-│   ├── TrainersList.js
-│   ├── TrainerDetails.js
-│   └── index.js
-├── public
-├── package.json
-├── package-lock.json
-└── README.md
-```
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Routing Implemented
+### `npm run build`
 
-| Route        | Description     |
-| ------------ | --------------- |
-| /            | Home Page       |
-| /trainers    | Trainers List   |
-| /trainer/:id | Trainer Details |
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Functionalities
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Home Page
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Displays the welcome message for the Trainers Application.
+### `npm run eject`
 
-### Trainers List
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Displays all trainers as clickable hyperlinks.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### Trainer Details
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Displays:
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-* Trainer Name
-* Technology
-* Email
-* Phone Number
-* Skills
+## Learn More
 
-based on the selected trainer ID passed through the URL.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Output
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Home Page
+### Code Splitting
 
-![trainersapp/Screenshot 2026-06-24 165913.png](<Screenshot 2026-06-24 165913.png>)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Trainers List
+### Analyzing the Bundle Size
 
-![trainersapp/Screenshot 2026-06-24 165923.png](<Screenshot 2026-06-24 165923.png>)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Trainer Details
+### Making a Progressive Web App
 
-![trainersapp/Screenshot 2026-06-24 165932.png](<Screenshot 2026-06-24 165932.png>)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-## Result
+### Advanced Configuration
 
-Successfully implemented navigation and routing in a React Single Page Application using React Router DOM. The application supports route-based navigation and dynamic parameter passing through URLs to display trainer-specific information.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
